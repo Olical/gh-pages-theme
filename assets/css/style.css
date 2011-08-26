@@ -9,7 +9,6 @@ header {
 	padding-top: 45px;
 	border-bottom: 2px solid #77746C;
 	padding-bottom: 28px;
-	margin-bottom: 40px;
 }
 
 /* Text */
@@ -39,7 +38,7 @@ h3 {
 	font-weight: bold;
 	font-family: inherit;
 	font-size: 28px;
-	margin-bottom: 18px;
+	margin-top: 40px;
 }
 
 /* Useful classes and styles */
@@ -83,6 +82,7 @@ a.download-button span {
 }
 
 code {
+	margin-top: 15px;
 	min-height: 220px;
 	border: 3px solid #FFFFFF;
 	background-color: #CCCC99;
@@ -92,4 +92,12 @@ code {
 	-webkit-box-shadow: 3px 3px 5px #000000;
 	-moz-box-shadow: 3px 3px 5px #000000;
 	box-shadow: 3px 3px 5px #000000;
+}
+
+/* Media queries */
+/* Hide the ribbon when we are on a phone, screen is too small */
+@media only screen and (max-width: 479px) {
+	a.github-ribbon {
+		display: none;
+	}
 }
