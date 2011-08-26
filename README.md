@@ -11,3 +11,5 @@ Just change this.
     <a href='https://github.com' class='github-ribbon'>...
 
 To point to your repository.
+
+On the same line you can also change the path to the image so you can have it in green for example. Check out `assets/images/github-ribbons` for all possible colours.
