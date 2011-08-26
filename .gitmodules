@@ -1,0 +1,3 @@
+[submodule "skeleton"]
+	path = skeleton
+	url = git://github.com/dhgamache/Skeleton.git
