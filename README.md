@@ -4,12 +4,9 @@ A clean concise theme for your GitHub projects from [Fublo](http://fublo.net).
 
 # Configuration
 
-You will want to change the link in the fork ribbon, this is located at the bottom of the page.
+You will need to configure the following elements.
 
-Just change this.
-
-    <a href='https://github.com/USER/REPOSITORY' class='github-ribbon'>...
-
-To point to your repository.
-
-On the same line you can also change the path to the image so you can have it in green for example. Check out `assets/images/github-ribbons` for all possible colours.
+ * The GitHub ribbons - Located near the bottom of the HTML. You can change the colour and link
+ * The download button link
+ * The pages title tag
+ * All content, examples, descriptions etc. Leaving lorum ipsum laying about does not look good. This includes the first part of the footer, please leave the very last line.
