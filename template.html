@@ -4,12 +4,14 @@
 		<title>My GitHub project</title>
 		<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
 		<!--[if lt IE 9]><script type='text/javascript' src='assets/javascript/html5.js'></script><![endif]-->
+		<script type='text/javascript' src='assets/javascript/prettify.js'></script>
 		<link rel='stylesheet' type='text/css' href='assets/css/skeleton/stylesheets/base.css' />
 		<link rel='stylesheet' type='text/css' href='assets/css/skeleton/stylesheets/skeleton.css' />
+		<link rel='stylesheet' type='text/css' href='assets/css/prettify.css' />
 		<link rel='stylesheet' type='text/css' href='assets/css/style.css' />
 	</head>
 	
-	<body>
+	<body onload='prettyPrint()'>
 		<div class='container'> 
 			<header class='sixteen columns'>
 				<div class='nine columns alpha'>
@@ -32,7 +34,7 @@
 				
 				<div class='eight columns alpha'>
 					<code>
-<pre>
+<pre class='prettyprint'>
 function codeExample() {
 	console.log('This is a code example.');
 }
@@ -42,7 +44,7 @@ function codeExample() {
 				
 				<div class='eight columns omega'>
 					<code>
-<pre>
+<pre class='prettyprint'>
 function codeExample() {
 	console.log('This is a code example.');
 }

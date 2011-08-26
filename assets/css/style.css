@@ -95,6 +95,12 @@ code {
 	overflow-x: auto;
 }
 
+pre.prettyprint {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
 /* Media queries */
 /* Hide the ribbon when we are on a phone, screen is too small */
 @media only screen and (max-width: 479px) {
