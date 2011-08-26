@@ -50,6 +50,19 @@ p {
 	font-size: 14px;
 }
 
+a {
+	color: #0075B6;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #0075B6;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 h1, h2 {
 	font-family: georgia,serif;
 }
