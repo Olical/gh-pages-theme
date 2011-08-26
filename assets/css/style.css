@@ -92,6 +92,7 @@ code {
 	-webkit-box-shadow: 3px 3px 5px #000000;
 	-moz-box-shadow: 3px 3px 5px #000000;
 	box-shadow: 3px 3px 5px #000000;
+	overflow-x: auto;
 }
 
 /* Media queries */
