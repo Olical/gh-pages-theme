@@ -64,10 +64,10 @@ a.download-button {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	-webkit-transition: background 350ms ease;
-	-moz-transition: background 350ms ease;
-	-o-transition: background 350ms ease;
-	transition: background 350ms ease;
+	-webkit-transition: 350ms;
+	-moz-transition: 350ms;
+	-o-transition: 350ms;
+	transition: 350ms;
 }
 
 a.download-button:hover {
