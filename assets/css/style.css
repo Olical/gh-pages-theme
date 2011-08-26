@@ -17,6 +17,7 @@ footer {
 	background-color: #FFFFFF;
 	position: relative;
 	margin-top: -200px;
+	padding-top: 30px;
 	clear: both;
 	-webkit-box-shadow: -10px 0 15px #000000;
 	-moz-box-shadow: -10px 0 15px #000000;
@@ -52,7 +53,7 @@ div.credits {
 	text-align: center;
 }
 
-div.credits p {
+footer p {
 	color: #333333;
 }
 
