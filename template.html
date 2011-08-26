@@ -9,10 +9,18 @@
 		<link rel='stylesheet' type='text/css' href='assets/css/skeleton/stylesheets/skeleton.css' />
 		<link rel='stylesheet' type='text/css' href='assets/css/prettify.css' />
 		<link rel='stylesheet' type='text/css' href='assets/css/style.css' />
+		<!--[if !IE 7]>
+			<style type='text/css'>
+				div.main {
+					display:table;
+					height:100%;
+				}
+			</style>
+		<![endif]-->
 	</head>
 	
 	<body onload='prettyPrint()'>
-		<div class='container'> 
+		<div class='container wrapper'>
 			<header class='sixteen columns'>
 				<div class='nine columns alpha'>
 					<h1>My GitHub project</h1>
@@ -29,7 +37,7 @@
 				</div>
 			</header>
 			
-			<div class='sixteen columns'>
+			<div class='sixteen columns main'>
 				<h3>Usage and examples</h3>
 				
 				<div class='eight columns alpha'>
@@ -58,11 +66,13 @@ function codeExample() {
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia, enim quis interdum accumsan, odio velit ultricies lectus, sit amet pellentesque eros velit venenatis leo. Morbi lacinia tempor metus in viverra.</p>
 				</div>
 			</div>
-			
-			<footer>
-				
-			</footer>
 		</div>
+		
+		<footer>
+			<div class='container'>
+				
+			</div>
+		</footer>
 		
 		<a href='https://github.com/USER/REPOSITORY' class='github-ribbon'><img src='assets/images/github-ribbons/red.png' /></a>
 	</body>
