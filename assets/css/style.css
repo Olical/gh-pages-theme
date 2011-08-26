@@ -1,3 +1,9 @@
+/* Page */
+body {
+	background: #333333 url('../images/page-background.png') repeat top left;
+}
+
+/* Useful general classes */
 a.github-ribbon {
 	position: absolute;
 	top: 0;
