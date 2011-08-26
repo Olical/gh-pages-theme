@@ -13,35 +13,11 @@ header {
 
 /* Footer */
 footer {
-	height: 200px;
 	background-color: #FFFFFF;
-	position: relative;
-	margin-top: -200px;
-	clear: both;
+	margin-top: 50px;
 	-webkit-box-shadow: -10px 0 15px #000000;
 	-moz-box-shadow: -10px 0 15px #000000;
 	box-shadow: -10px 0 15px #000000;
-}
-
-html, body {
-	height: 100%;
-}
-
-div.wrapper {
-	min-height: 100%;
-}
-
-div.main {
-	overflow: auto;
-	padding-bottom: 200px;
-}  
-
-body:before {
-	content: '';
-	height: 100%;
-	float: left;
-	width: 0;
-	margin-top: -32767px;
 }
 
 div.credits {
