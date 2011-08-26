@@ -4,6 +4,11 @@ body {
 	font-family: arial,sans-serif;
 }
 
+/* Header */
+header {
+	padding-top: 45px;
+}
+
 /* Text */
 p {
 	color: #CCCCCC;
@@ -63,9 +68,4 @@ a.download-button span {
 	font-size: 14px;
 	display: block;
 	margin-top: 2px;
-}
-
-/* Header */
-header {
-	padding-top: 45px;
 }
