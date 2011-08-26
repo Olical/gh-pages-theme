@@ -39,9 +39,10 @@ h3 {
 	font-weight: bold;
 	font-family: inherit;
 	font-size: 28px;
+	margin-bottom: 18px;
 }
 
-/* Useful classes */
+/* Useful classes and styles */
 a.github-ribbon {
 	position: absolute;
 	top: 0;
@@ -79,4 +80,16 @@ a.download-button span {
 	font-size: 14px;
 	display: block;
 	margin-top: 2px;
+}
+
+code {
+	min-height: 220px;
+	border: 3px solid #FFFFFF;
+	background-color: #CCCC99;
+	display: block;
+	padding: 20px;
+	font-family: monospace;
+	-webkit-box-shadow: 3px 3px 5px #000000;
+	-moz-box-shadow: 3px 3px 5px #000000;
+	box-shadow: 3px 3px 5px #000000;
 }
