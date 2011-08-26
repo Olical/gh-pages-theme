@@ -1,23 +1,12 @@
-/* General styles */
+/* Page */
 body {
 	background: #333333 url('../images/page-background.png') repeat top left;
 }
 
-a.github-ribbon {
-	position: absolute;
-	top: 0;
-	left: 0;
-	border: 0;
-}
-
+/* Text */
 p {
 	color: #CCCCCC;
 	font-size: 14px;
-}
-
-/* Header */
-header {
-	padding-top: 45px;
 }
 
 h1, h2 {
@@ -34,4 +23,17 @@ h1 {
 h2 {
 	color: #CCCCCC;
 	font-size: 20px;
+}
+
+/* Useful classes */
+a.github-ribbon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 0;
+}
+
+/* Header */
+header {
+	padding-top: 45px;
 }
