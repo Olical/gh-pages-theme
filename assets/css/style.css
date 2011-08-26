@@ -1,12 +1,37 @@
-/* Page */
+/* General styles */
 body {
 	background: #333333 url('../images/page-background.png') repeat top left;
 }
 
-/* Useful general classes */
 a.github-ribbon {
 	position: absolute;
 	top: 0;
 	left: 0;
 	border: 0;
+}
+
+p {
+	color: #CCCCCC;
+	font-size: 14px;
+}
+
+/* Header */
+header {
+	padding-top: 45px;
+}
+
+h1, h2 {
+	font-family: georgia,serif;
+}
+
+h1 {
+	font-style: italic;
+	color: #FFFFFF;
+	font-size: 50px;
+	margin: 0;
+}
+
+h2 {
+	color: #CCCCCC;
+	font-size: 20px;
 }
