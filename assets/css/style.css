@@ -72,6 +72,7 @@ a.download-button {
 
 a.download-button:hover {
 	background-color: #267C00;
+	background-position: 90% 50%;
 }
 
 a.download-button span {
