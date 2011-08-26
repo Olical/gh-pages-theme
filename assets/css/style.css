@@ -7,6 +7,9 @@ body {
 /* Header */
 header {
 	padding-top: 45px;
+	border-bottom: 2px solid #77746C;
+	padding-bottom: 28px;
+	margin-bottom: 35px;
 }
 
 /* Text */
