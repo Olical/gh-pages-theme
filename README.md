@@ -2,6 +2,10 @@
 
 A clean concise theme for your GitHub projects from [Fublo](http://fublo.net).
 
+The theme uses skeleton to provide an adaptive layout so even looks great on mobile devices!
+
+It comes with a download button, syntax highlighting and a section at the bottom to credit your self with.
+
 # Installation
 
 To install the theme to the `gh-pages` branch of your repository just run the following line. Remember, this will create a new branch called `gh-pages` wiping any current branch called `gh-pages`.
