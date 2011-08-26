@@ -33,12 +33,20 @@ h2 {
 	font-size: 20px;
 }
 
-h3 {
+h3, h4 {
 	color: #FFFFFF;
 	font-weight: bold;
 	font-family: inherit;
+}
+
+h3 {
 	font-size: 28px;
 	margin-top: 40px;
+}
+
+h4 {
+	font-size: 20px;
+	margin-top: 20px;
 }
 
 /* Useful classes and styles */
