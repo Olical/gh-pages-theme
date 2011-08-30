@@ -2,7 +2,7 @@
 
 A clean concise theme for your GitHub projects from [Fublo](http://fublo.net). You can see a working example [here](http://fublo.github.com/gh-pages-theme).
 
-The theme uses skeleton to provide an adaptive layout so even looks great on mobile devices!
+The theme uses skeleton to provide a responsive layout so even looks great on mobile devices!
 
 It comes with a download button, syntax highlighting and a section at the bottom to credit your self with.
 
