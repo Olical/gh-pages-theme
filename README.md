@@ -27,3 +27,13 @@ You will need to configure the following elements.
  * The download button link
  * The pages title tag
  * All content, examples, descriptions etc. Leaving lorum ipsum laying about does not look good. This includes the first part of the footer, please leave the very last line.
+
+# Compatibility
+
+Works perfectly in the following browsers.
+
+ * Chrome
+ * Firefox 4+ (syntax highlighting is broken below)
+ * Safari
+ * Opera
+ * Internet Explorer 7+ (6 begins to break down with image transparency and alignment issues)
