@@ -10,14 +10,15 @@ It comes with a download button, syntax highlighting and a section at the bottom
 
 To install the theme to the `gh-pages` branch of your repository just run the following line. Remember, this will create a new branch called `gh-pages` wiping any current branch called `gh-pages`.
 
-    git remote add gh-pages-theme git@github.com:fublo/gh-pages-theme.git; git fetch gh-pages-theme; git checkout -b gh-pages gh-pages-theme/master; git submodule update --init
+    git remote add gh-pages-theme git@github.com:fublo/gh-pages-theme.git; git fetch gh-pages-theme; git checkout -b gh-pages gh-pages-theme/master;
+
+Alternatively you can just [download and extract this zip](https://github.com/fublo/gh-pages-theme/zipball/master).
 
 So this will:
 
  * Add the remote `gh-pages-theme` which points to the themes repository.
  * Fetch the repository.
  * Create the new branch `gh-pages` from the fetched data.
- * And finally update the submodules which will download skeleton.
 
 # Configuration
 
