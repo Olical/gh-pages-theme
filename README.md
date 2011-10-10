@@ -42,6 +42,7 @@ Works perfectly in the following browsers.
 # Licence
 
 A clean concise theme for your GitHub projects
+
 Copyright (C) 2011 Fublo Ltd
 
 This program is free software: you can redistribute it and/or modify
