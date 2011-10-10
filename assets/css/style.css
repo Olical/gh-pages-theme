@@ -44,9 +44,14 @@ div.repo-author {
 }
 
 /* Text */
-p {
-	color: #CCCCCC;
-	font-size: 14px;
+p, strong, li {
+    color: #CCCCCC;
+    font-size: 14px;
+}
+
+strong {
+    font-weight: bold;
+    color: #EEEEEE;
 }
 
 a {
